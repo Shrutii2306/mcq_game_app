@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Inter:wght@400;500;600;900&family=DotGothic16&family=Bungee+Shade&family=Libre+Baskerville:wght@700&family=Rubik+Vinyl&family=Teko:wght@300;400;500;600;700&display=swap');
+
+
+
+@media screen  and (max-width: 800px){
+  .category-logo{
+
+    height: 12vh;
+    box-shadow: 0px 0px 10px white;
+    border-radius: 4vh;
+    margin-bottom: 1rem;
+  }
+  .category-logo:hover{
+  
+    box-shadow: 0px 0px 15px rgb(243, 227, 110);
+    height: 13vh;
+  
+  }
+  
+  .App {
+    text-align: center;
+    font-family: Teko;
+    color: whitesmoke;
+  }
+  
+  .heading{
+  
+    font-size:4rem;
+    margin-top: 2.5rem;
+    color:#e0f3f4;
+    text-shadow:5px 0px 25px #09edf5;
+  }
+  
+  .sub-heading{
+  
+    color: #208c8c;
+    font-size: 2rem;
+  }
+  .category-container{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+  
+  }
+  
+  button{
+  
+    background: none;
+    border: none;
+  }
+  
+  .option-button{
+  
+    border : solid 1px rgb(241, 241, 139);
+    border-radius: 6px;
+    padding: 1rem;
+    color: #cae9ea;
+    width: 100%;
+    transition:0.3s ease-in-out;
+    margin-top: 2%;
+  }
+  
+  .option-button:hover{
+  
+    border : solid 1px rgb(232, 116, 8);
+  }
+  
+  .option-button:focus{
+  
+    border : solid 2px rgb(26, 129, 96);
+    width: 98%;
+    background-color: rgba(97, 174, 148, 0.136);
+  }
+  
+  .back-button{
+  
+    display: flex;
+    flex-direction: column;
+    color: #09edf5;
+    text-align: start;
+    align-items: flex-start;
+    width: fit-content;
+    margin-left: 2%;
+  }
+  
+  .mcq-page{
+  
+    margin-left: 28%;
+    width:33%;
+  }
+  .back-icon{
+  
+    height: 2rem;
+  }
+  
+  .mcq-container{
+  
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 5%;
+  }
+  
+  .question-div{
+  
+    font-weight: bold;
+    font-size: 1.4rem;
+  }
+  
+  
+  .submit-button{
+  
+    color:wheat;
+    border:1px solid white;
+    margin-top: 3%;
+    padding: 0.5% 1.8%;
+    font-size: larger;
+  }
+  
+  .submit-button:hover{
+  
+    background-color: rgba(248, 221, 187, 0.521);
+    color: black;
+  }
+  
+  .score-div{
+  
+    font-family: DotGothic16;
+    font-size: 10rem;
+    color: #09edf5;
+    
+  }
+  
+  .main-menu-btn{
+  
+    color: rgb(249, 217, 10);
+    font-size: 2.2rem;
+    font-family: teko;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  
+  .main-menu-btn:hover{
+  
+    font-size: 2.4rem;
+    color: #e0f3f4;
+    text-shadow: 5px 0px 25px #ecedae;
+    
+  }
+  
+}
+
+@media screen and (min-width: 800px) {
+  .category-logo{
+
+    height: 22vh;
+    box-shadow: 0px 0px 10px white;
+    border-radius: 4vh;
+    margin-bottom: 1rem;
+  }
+  .category-logo:hover{
+  
+    box-shadow: 0px 0px 15px rgb(243, 227, 110);
+    height: 21vh;
+  
+  }
+  
+  .App {
+    text-align: center;
+    font-family: Teko;
+    color: whitesmoke;
+  }
+  
+  .heading{
+  
+    font-size:4rem;
+    margin-top: 2.5rem;
+    color:#e0f3f4;
+    text-shadow:5px 0px 25px #09edf5;
+  }
+  
+  .sub-heading{
+  
+    color: #208c8c;
+    font-size: 2rem;
+  }
+  .category-container{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+  
+  }
+  
+  button{
+  
+    background: none;
+    border: none;
+  }
+  
+  .option-button{
+  
+    border : solid 1px rgb(241, 241, 139);
+    border-radius: 6px;
+    padding: 1rem;
+    color: #cae9ea;
+    width: 100%;
+    transition:0.3s ease-in-out;
+    margin-top: 2%;
+  }
+  
+  .option-button:hover{
+  
+    border : solid 1px rgb(232, 116, 8);
+  }
+  
+  .option-button:focus{
+  
+    border : solid 2px rgb(26, 129, 96);
+    width: 98%;
+    background-color: rgba(97, 174, 148, 0.136);
+  }
+  
+  .back-button{
+  
+    display: flex;
+    flex-direction: column;
+    color: #09edf5;
+    text-align: start;
+    align-items: flex-start;
+    width: fit-content;
+    margin-left: 2%;
+  }
+  
+  .mcq-page{
+  
+    margin-left: 28%;
+    width:33%;
+  }
+  .back-icon{
+  
+    height: 2rem;
+  }
+  
+  .mcq-container{
+  
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 5%;
+  }
+  
+  .question-div{
+  
+    font-weight: bold;
+    font-size: 1.4rem;
+  }
+  
+  
+  .submit-button{
+  
+    color:wheat;
+    border:1px solid white;
+    margin-top: 3%;
+    padding: 0.5% 1.8%;
+    font-size: larger;
+  }
+  
+  .submit-button:hover{
+  
+    background-color: rgba(248, 221, 187, 0.521);
+    color: black;
+  }
+  
+  .score-div{
+  
+    font-family: DotGothic16;
+    font-size: 10rem;
+    color: #09edf5;
+    
+  }
+  
+  .main-menu-btn{
+  
+    color: rgb(249, 217, 10);
+    font-size: 2.2rem;
+    font-family: teko;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  
+  .main-menu-btn:hover{
+  
+    font-size: 2.4rem;
+    color: #e0f3f4;
+    text-shadow: 5px 0px 25px #ecedae;
+    
+  }
+}
